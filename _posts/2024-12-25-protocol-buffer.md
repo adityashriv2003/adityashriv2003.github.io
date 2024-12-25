@@ -1,6 +1,6 @@
 ---
 title: "Deep Dive: Understanding Protocol Buffers (Protobuf)"
-date: 2024-12-26 12:00:00 -500
+date: 2024-12-26 
 categories: [Development]
 tags: [protobuf, serialization, google, distributed-systems]
 ---
