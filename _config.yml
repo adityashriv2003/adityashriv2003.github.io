@@ -1,6 +1,7 @@
 # The Site Configuration
 
 # Import the theme
+theme : jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -169,6 +170,11 @@ collections:
   tabs:
     output: true
     sort_by: order
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 defaults:
   - scope:
